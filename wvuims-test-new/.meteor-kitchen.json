@@ -1,0 +1,511 @@
+{
+	"output_files": [
+		{
+			"path": "client/views/router.js",
+			"checksum": "fb7040612d4f8e81b7e9f2680f6fc2a6be6917fd"
+		},
+		{
+			"path": "server/controllers/router.js",
+			"checksum": "f9d076cc64b65aa4ce85d9ca7272d8cfefc46694"
+		},
+		{
+			"path": "client/client.js",
+			"checksum": "be9b2599729691ae8e14db30909f29b9df53b75d"
+		},
+		{
+			"path": "server/server.js",
+			"checksum": "bc090755501c324ac27c9839e05338da6a3bf40c"
+		},
+		{
+			"path": "client/views/not_found/not_found.html",
+			"checksum": "df91b51c0a4787a26c4a7ea8ad72ca8310f72b41"
+		},
+		{
+			"path": "client/views/not_found/not_found.js",
+			"checksum": "c0fae5482a1cd2a4db8a2d56f1814624cc88e2b9"
+		},
+		{
+			"path": "client/views/loading/loading.html",
+			"checksum": "99e97ba60ddf18b9ed3977aa1f73b1fe3494922a"
+		},
+		{
+			"path": "client/views/loading/loading.js",
+			"checksum": "8dd253dc97404ddf820f3b540366d4c5cfdbaab7"
+		},
+		{
+			"path": "client/styles/styles/theme/variables.import.less",
+			"checksum": "722903837b0aabb022139a80cc1567c25e53776f"
+		},
+		{
+			"path": "client/styles/styles/theme/bootswatch.import.less",
+			"checksum": "1c89e9a39362ab853525bcdc3c7ef30844399cfd"
+		},
+		{
+			"path": "client/styles/styles/theme/themefix.import.less",
+			"checksum": "218efa4a548fc82cb380fa98d49a5692f6837d45"
+		},
+		{
+			"path": "client/styles/styles/theme/theme.import.less",
+			"checksum": "f04733519720132ea291b6b3ad138181bf83bab4"
+		},
+		{
+			"path": "client/styles/styles/styles.less",
+			"checksum": "c9eb8a0ffbbd03bce0870a472215873ab72be13d"
+		},
+		{
+			"path": "client/views/layout/layout.html",
+			"checksum": "7c61121fa8072e892b22470199162222fc338629"
+		},
+		{
+			"path": "client/views/layout/layout.js",
+			"checksum": "82782f172ff51882daf8d87f15a309d180fdcbfd"
+		},
+		{
+			"path": "client/views/home_public/home_public.html",
+			"checksum": "42471813e05ad69f845a4f3d761cb9f228a00407"
+		},
+		{
+			"path": "client/views/home_public/home_public.js",
+			"checksum": "ed9cc2c877b63a9a95680a9f33045274ac7d9a9b"
+		},
+		{
+			"path": "client/views/home_public/home_public_controller.js",
+			"checksum": "a74fe8e593e0287c07d5c739d696b2117e6e709a"
+		},
+		{
+			"path": "client/views/login/login.html",
+			"checksum": "98d225bfca233bc43dfe8dee374ee170b829f02b"
+		},
+		{
+			"path": "client/views/login/login.js",
+			"checksum": "97347853882aabd33520e21221ffc7ad95694be0"
+		},
+		{
+			"path": "client/views/login/login_controller.js",
+			"checksum": "bb5224a58563fa3c11fa61c29f56eaf884768aa3"
+		},
+		{
+			"path": "client/views/register/register.html",
+			"checksum": "6f6a9f30c8dbeaf9c31335ab089db1bbe4aefacb"
+		},
+		{
+			"path": "client/views/register/register.js",
+			"checksum": "cf16b8a4542dad5ef0034d834cabb5e9f8468f2f"
+		},
+		{
+			"path": "client/views/register/register_controller.js",
+			"checksum": "e04c321a9f410c8ea1c2ff703da1542d75942745"
+		},
+		{
+			"path": "client/views/forgot_password/forgot_password.html",
+			"checksum": "d28a61ac325a7ee0fbdf8f805a11ffd9f488f219"
+		},
+		{
+			"path": "client/views/forgot_password/forgot_password.js",
+			"checksum": "060673ce8d4744ad5cedca71c58604849f46880f"
+		},
+		{
+			"path": "client/views/forgot_password/forgot_password_controller.js",
+			"checksum": "4fa77c07252926439e800a7d5b98e79090d20e77"
+		},
+		{
+			"path": "client/views/reset_password/reset_password.html",
+			"checksum": "59b305ffe597317a5f904dd3321aa6ef0d82ba33"
+		},
+		{
+			"path": "client/views/reset_password/reset_password.js",
+			"checksum": "2e0c7bc4b34a214db6e88f6166218d587ca64beb"
+		},
+		{
+			"path": "client/views/reset_password/reset_password_controller.js",
+			"checksum": "08c7d6e06c13fbb5716b78629c8c1782571ad266"
+		},
+		{
+			"path": "client/views/home_private/home_private.html",
+			"checksum": "68b2af307602b889da554f8a774e5b2f242951e1"
+		},
+		{
+			"path": "client/views/home_private/home_private.js",
+			"checksum": "84e0c605583ea2f469e06bacf7fb5cc75f6ee421"
+		},
+		{
+			"path": "client/views/home_private/home_private_controller.js",
+			"checksum": "55f59969d6597968c2f9b41543c2eea7f1fbd266"
+		},
+		{
+			"path": "client/views/items/items.html",
+			"checksum": "2f3e8151cc5bada524f06d0cb22f840469309587"
+		},
+		{
+			"path": "client/views/items/items.js",
+			"checksum": "42dcfc288a6f1a34687160ecc540c629e72a2582"
+		},
+		{
+			"path": "client/views/items/items_controller.js",
+			"checksum": "7dc9f3624b845bbef6b088ac7ce275758869421e"
+		},
+		{
+			"path": "client/views/items/insert/insert.html",
+			"checksum": "db5d3ccf0dd33183d3798f99b721f5fc26961f39"
+		},
+		{
+			"path": "client/views/items/insert/insert.js",
+			"checksum": "12756eb4a28c6ec1e014d24ade5900f14552b078"
+		},
+		{
+			"path": "client/views/items/insert/insert_controller.js",
+			"checksum": "861d1b2907499d37d049053e5706017ae4320fed"
+		},
+		{
+			"path": "client/views/items/details/details.html",
+			"checksum": "7f3fe7e2a93b88cc865f2971d0c5feacffbb896e"
+		},
+		{
+			"path": "client/views/items/details/details.js",
+			"checksum": "593adf4b3ca8171d05844f3b536399c11a1af944"
+		},
+		{
+			"path": "client/views/items/details/details_controller.js",
+			"checksum": "da6b14065ec54e1c2e688ee3df4ff74ba127f37c"
+		},
+		{
+			"path": "client/views/items/details/items/items.html",
+			"checksum": "88cea0a49ad6abb6fe2977f1ea8df2a25be933f2"
+		},
+		{
+			"path": "client/views/items/details/items/items.js",
+			"checksum": "f75a7bcdd07ad42d33a1c357ce82d829e7758b82"
+		},
+		{
+			"path": "client/views/items/details/items/items_controller.js",
+			"checksum": "2d8c5ce5b18e3ce76e8cd72eebc7199fd0f838dd"
+		},
+		{
+			"path": "client/views/items/details/insert/insert.html",
+			"checksum": "6fd13a7312798044bf1a36fd4f048cc6349e3d62"
+		},
+		{
+			"path": "client/views/items/details/insert/insert.js",
+			"checksum": "084e95f23e511efebca966e1b424580ce38aae81"
+		},
+		{
+			"path": "client/views/items/details/insert/insert_controller.js",
+			"checksum": "545683e7f0f68bc9ff9c5a190e94f64fc9c7a304"
+		},
+		{
+			"path": "client/views/items/details/edit/edit.html",
+			"checksum": "9bb44b5b0727283be34361634de9d351b993906d"
+		},
+		{
+			"path": "client/views/items/details/edit/edit.js",
+			"checksum": "f3db55fc16f45a2d201d49cef8c8ee78917f7238"
+		},
+		{
+			"path": "client/views/items/details/edit/edit_controller.js",
+			"checksum": "14bb6dc7618f5aa583db5d3340405b16ed404151"
+		},
+		{
+			"path": "client/views/items/edit/edit.html",
+			"checksum": "bae29525591b893d6fc605e94259df7a3f7ae4f6"
+		},
+		{
+			"path": "client/views/items/edit/edit.js",
+			"checksum": "2b712eb09b9d2e98da0d47469cf07916af2df6a9"
+		},
+		{
+			"path": "client/views/items/edit/edit_controller.js",
+			"checksum": "2141980dac1b2c8d1c7eb9bee8d8394050150c6e"
+		},
+		{
+			"path": "client/views/read_item/read_item.html",
+			"checksum": "ae2ed35c62bb3e41b4d90aea3419a9fd593385b3"
+		},
+		{
+			"path": "client/views/read_item/read_item.js",
+			"checksum": "c4c8bf41192c140724dbe9d1138eeb102d3d5a5c"
+		},
+		{
+			"path": "client/views/read_item/read_item_controller.js",
+			"checksum": "3ffef25cf0ad76b41dd120f78fca3900b6cb2345"
+		},
+		{
+			"path": "client/views/user_settings/user_settings.html",
+			"checksum": "95bf5345fff800ef4a032838628b36e61b111655"
+		},
+		{
+			"path": "client/views/user_settings/user_settings.js",
+			"checksum": "19257c8e7fffd123048fd7a035cdd7c4af1c6f25"
+		},
+		{
+			"path": "client/views/user_settings/user_settings_controller.js",
+			"checksum": "a5071a5cef7951f1dae75852dc95177689ecd806"
+		},
+		{
+			"path": "client/views/user_settings/profile/profile.html",
+			"checksum": "ea355ec0770381bd1e027f0b09067eaadb19e9de"
+		},
+		{
+			"path": "client/views/user_settings/profile/profile.js",
+			"checksum": "9b9fec9887461a8370c29083472d47ff024c57f1"
+		},
+		{
+			"path": "client/views/user_settings/profile/profile_controller.js",
+			"checksum": "1c37c6368d51445cf5ccf2d5b551c96353ed4050"
+		},
+		{
+			"path": "client/views/user_settings/change_pass/change_pass.html",
+			"checksum": "33e7602afe9295992e2968e9e2f8efd93e3d761a"
+		},
+		{
+			"path": "client/views/user_settings/change_pass/change_pass.js",
+			"checksum": "187a04cd5bba14240ee5118a6cd0db60655f9137"
+		},
+		{
+			"path": "client/views/user_settings/change_pass/change_pass_controller.js",
+			"checksum": "71ca8f89ee004189fcdb8600ec07b83c7ad8a192"
+		},
+		{
+			"path": "client/views/logout/logout.html",
+			"checksum": "ffde068f1a1cd15fdfee1b779579db44096d5975"
+		},
+		{
+			"path": "client/views/logout/logout.js",
+			"checksum": "fc773b13b4879f8b877463c17aeb5ff5790eafd3"
+		},
+		{
+			"path": "client/views/logout/logout_controller.js",
+			"checksum": "d1db0d31bbaef77ad9693a18d59871cab34a30ef"
+		},
+		{
+			"path": "both/collections/photos.js",
+			"checksum": "ffcc33c46d96692f2f2693b7a7798637700fd490"
+		},
+		{
+			"path": "server/methods/photos.js",
+			"checksum": "626ef75a3f6492faa64e5ccbceb553e178bdd5b6"
+		},
+		{
+			"path": "server/collections/photos.js",
+			"checksum": "3dbd7844d41c80cae86ef2ea41c4459997de5e9a"
+		},
+		{
+			"path": "server/publish/photos.js",
+			"checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+		},
+		{
+			"path": "both/collections/items.js",
+			"checksum": "f33acf1db3c33de16c8e211bf4fe1dd86a6d2c59"
+		},
+		{
+			"path": "server/methods/items.js",
+			"checksum": "c4e35255068fc79ac56abaab887a8247aee8a255"
+		},
+		{
+			"path": "server/collections/items.js",
+			"checksum": "0390c0f989a2c2a559aa0d80376ba176cb9d92cd"
+		},
+		{
+			"path": "server/publish/items.js",
+			"checksum": "0a44d46470eee1ccb267eaa9980389a0ec0f4c08"
+		},
+		{
+			"path": "both/collections/item_details.js",
+			"checksum": "950630671f62e990933e3343fcdb0523f2f46696"
+		},
+		{
+			"path": "server/methods/item_details.js",
+			"checksum": "12a9ea45b1fe3e56131262feb62fe4af8719d872"
+		},
+		{
+			"path": "server/collections/item_details.js",
+			"checksum": "2f0ef18ead729d7e47d96cc90dbb058ef7078817"
+		},
+		{
+			"path": "server/publish/item_details.js",
+			"checksum": "b07c677f2ff15623ca79ba1b3e48e6989fb3b6f5"
+		},
+		{
+			"path": "both/joins/joins.js",
+			"checksum": "f6c9dba0eec1e54b14d33f6d32f1455cc7c9119c"
+		},
+		{
+			"path": "lib/string_utils.js",
+			"checksum": "6bf8f64bf32bd7aff71cbeeba23df9fb8282a12c"
+		},
+		{
+			"path": "lib/object_utils.js",
+			"checksum": "0660e53aff2c1841d88a344b80af744fb8c9b15c"
+		},
+		{
+			"path": "client/lib/http_utils.js",
+			"checksum": "740095219b687a460a789da9ab9ef4d64a111b9c"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.json",
+			"checksum": "59c3803dde72dfd34e95a52dc4f5cae65018ec38"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.mixins.import.less",
+			"checksum": "b53332a4c7dffc57aefda1db82b4e09258dad07a"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.less",
+			"checksum": "a114a65d406f228e4137a3fb7b33047c40a5cd68"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3/custom.bootstrap.import.less",
+			"checksum": "8007cd69773c1c62284460f7c0fd8310e7f60094"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-tagsinput/bootstrap-tagsinput.js",
+			"checksum": "4d941e8119dcf9b140347d647b925800cb7ef319"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-tagsinput/bootstrap-tagsinput.css",
+			"checksum": "49937990ee001ae632d23d1e9bb71dc4460ac7c1"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_LANG.js",
+			"checksum": "e80901eda8d09ee66e3375ddd6d7f7a53dbfcda8"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_uk.js",
+			"checksum": "f5f6b5052a111fa87a5da8608a5d137d4116e6c5"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_hu.js",
+			"checksum": "500bfd774110b73e07e9f4e23a4cbf9c896fbcea"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_ru.js",
+			"checksum": "4939e4b72d235b9a68602aba3501bd72bde77611"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pt-BR.js",
+			"checksum": "8caeab2c4b40a90eba4412eb5a31c76405e5a04a"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_tr.js",
+			"checksum": "25e2ea3f23c594180a3496f814ae907343de1add"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_es.js",
+			"checksum": "6eb5775359ee3e6199962d05fb6a2ddf79426766"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_el.js",
+			"checksum": "d00eebe17389c41dbdfdd5611573ba52169f16eb"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_sk.js",
+			"checksum": "1dc9d65243156006cf762ed85cdf36501c27f38a"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_de.js",
+			"checksum": "fcad7c9406cb7ab1959ee5a62825a62b905f34a2"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_zh.js",
+			"checksum": "f477aede4974871fc0ba71d3ed4f90d8b9f1a74e"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_cz.js",
+			"checksum": "146a2a2bd0e89b62b775eee929907970e875ddf6"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_it.js",
+			"checksum": "09d41c11dadf15f197bd443f5ad01a68e3408bde"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_fr.js",
+			"checksum": "aea834881f99fe187153560b32011c2af7f56092"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_th.js",
+			"checksum": "05fec04f2b334bd579126eeb54321fbec516470f"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_ro.js",
+			"checksum": "7fcbd870c67fbd4646b6b53c4e07f84ebaf6ebd1"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pt.js",
+			"checksum": "f1d3b0c83a6a10b6e1cd7b8f523a98a7a51720ac"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pl.js",
+			"checksum": "77ce969c9532dc4cda50d57bad7c8e8c9e792386"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput.css",
+			"checksum": "30ba45c948bcb125cf0cb550b4a9d2f13ffcc710"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_sr.js",
+			"checksum": "50ac58590814ab9959e34d94a4b2bb8cf9be35b9"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_nl.js",
+			"checksum": "106dfa775832df6830675c8927603a813063986c"
+		},
+		{
+			"path": "client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput.js",
+			"checksum": "b6c83cb478c232284b8b6cae90d0ec2840d93332"
+		},
+		{
+			"path": "client/lib/form_utils.js",
+			"checksum": "ac523c7384145b2d294b67946bf07b63c69cfe4e"
+		}
+	],
+	"output_directories": [
+		"client/",
+		"client/lib/",
+		"client/components/",
+		"client/styles/",
+		"client/styles/framework/",
+		"client/styles/styles/",
+		"client/styles/styles/theme/",
+		"client/views/",
+		"client/views/not_found/",
+		"client/views/loading/",
+		"client/views/layout/",
+		"lib/",
+		"settings/",
+		"packages/",
+		"both/",
+		"both/lib/",
+		"both/collections/",
+		"both/joins/",
+		"public/",
+		"public/images/",
+		"public/fonts/",
+		"private/",
+		"server/",
+		"server/lib/",
+		"server/collections/",
+		"server/publish/",
+		"server/controllers/",
+		"server/methods/",
+		"client/views/home_public/",
+		"client/views/login/",
+		"client/views/register/",
+		"client/views/forgot_password/",
+		"client/views/reset_password/",
+		"client/views/home_private/",
+		"client/views/items/",
+		"client/views/items/insert/",
+		"client/views/items/details/",
+		"client/views/items/details/items/",
+		"client/views/items/details/insert/",
+		"client/views/items/details/edit/",
+		"client/views/items/edit/",
+		"client/views/read_item/",
+		"client/views/user_settings/",
+		"client/views/user_settings/profile/",
+		"client/views/user_settings/change_pass/",
+		"client/views/logout/",
+		"client/styles/framework/bootstrap3/",
+		"client/styles/framework/bootstrap3-plugins/bootstrap-tagsinput/",
+		"client/styles/framework/bootstrap3-plugins/bootstrap-fileinput/"
+	]
+}

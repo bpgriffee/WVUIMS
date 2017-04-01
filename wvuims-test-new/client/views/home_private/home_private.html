@@ -1,0 +1,33 @@
+<template name="HomePrivate">
+	<div class="page-container container" id="content">
+		<div class="row" id="title_row">
+			<div class="col-md-12">
+				<h2 id="page_title" class="pull-left">
+					Welcome {{userFullName}}!
+				</h2>
+				<div id="page_menu" class="pull-right">
+				</div>
+			</div>
+		</div>
+		{{> HomePrivateHomePrivateJumbotron}}
+	</div>
+</template>
+
+<template name="HomePrivateHomePrivateJumbotron">
+	<div class="jumbotron ">
+		<div id="content" class="container">
+			<h1 id="component-title">
+				WVU Inventory Management System
+			</h1>
+			<p id="jumbotron-text">
+				Get started by going to the items page and adding some inventory items
+			</p>
+			<p id="jumbotron-button">
+				<a href="#" class="btn btn btn-primary btn-lg" role="button">
+					Continue &raquo;
+				</a>
+			</p>
+		</div>
+	</div>
+</template>
+

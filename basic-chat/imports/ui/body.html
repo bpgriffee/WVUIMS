@@ -1,43 +1,38 @@
 <body>
+  <!-- Header -->
+  <div id="header">
+    {{> loginButtons}}
+  </div>
+
 	<!-- Main -->
-		<div id="main">
-      {{> loginButtons}}
-      {{> grouplist}}
-      {{#if messageState}}
-        <div id="forms">
-          <form name="addmemberform">
-            <input type="text" name="text" placeholder="Username to Add" />
-            <button class="submit-member">Submit</button>
-          </form>
-          <br>
-          <form name="messageform">
-            <input type="text" name="text" placeholder="Message" />
-            <button class="submit-message">Submit</button>
-          </form>
-        </div>
+	<div id="main">
+    {{> grouplist}}
+    {{#if messageState}}
+      <div id="forms">
+        <form name="addmemberform">
+          <input type="text" name="text" placeholder="Username to Add" />
+          <button class="submit-member">Submit</button>
+        </form>
         <br>
-        {{> messagelist}}
-      {{/if}}
+        <form name="messageform">
+          <input type="text" name="text" placeholder="Message" />
+          <button class="submit-message">Submit</button>
+        </form>
+      </div>
+      <br>
+      {{> messagelist}}
+    {{/if}}
 
-    </div>
+  </div>
 
 
-	<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.scrollzer.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollzer.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
 
 </body>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-<ul class="copyright">
-  <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-</ul>
--->

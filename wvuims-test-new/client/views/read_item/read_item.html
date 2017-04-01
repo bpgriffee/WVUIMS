@@ -1,0 +1,32 @@
+<template name="ReadItem">
+	<div class="page-container container" id="content">
+		<div class="row" id="title_row">
+			<div class="col-md-12">
+				<h2 id="page_title" class="pull-left">
+					Read an NFC Tag
+				</h2>
+				<div id="page_menu" class="pull-right">
+				</div>
+			</div>
+		</div>
+		{{> ReadItemReaderJumbotron}}
+	</div>
+</template>
+
+<template name="ReadItemReaderJumbotron">
+	<div class="jumbotron ">
+		<div id="content" class="container">
+			<h1 id="component-title">
+				Read
+			</h1>
+			<p id="jumbotron-text">
+			</p>
+			<p id="jumbotron-button">
+				<a href="#" class="btn btn btn-primary btn-lg" role="button">
+					Read &raquo;
+				</a>
+			</p>
+		</div>
+	</div>
+</template>
+

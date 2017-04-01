@@ -1,0 +1,94 @@
+<template name="ItemsDetails">
+	<div class="page-container container">
+		<div class="row">
+			<div class="col-md-12" id="content">
+				<div class="row" id="title_row">
+					<div class="col-md-12">
+						<div id="page_menu" class="pull-right">
+						</div>
+					</div>
+				</div>
+				{{> ItemsDetailsDetailsForm}}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="menu">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="subcontent">
+				{{> yield region='ItemsDetailsSubcontent'}}
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="ItemsDetailsDetailsForm">
+	<div id="items-details-details-form" class="">
+		<h2 id="component-title">
+			<a href="#" id="form-back-button" class="btn btn-default" title="back">
+				<span class="fa fa-chevron-left">
+				</span>
+			</a>
+			Item Viewer
+		</h2>
+		<form role="form" class="form-horizontal">
+			{{#if errorMessage}}
+			<div class="alert alert-warning">
+				{{errorMessage}}
+			</div>
+			{{/if}}
+
+			{{#if infoMessage}}
+			<div class="alert alert-success">
+				{{infoMessage}}
+			</div>
+			{{/if}}
+			<div class="form-group  field-item-name">
+				<label for="itemName" class="col-sm-3 control-label">
+					Item Name
+				</label>
+				<div class="input-div col-sm-9">
+					<p class="form-control-static  control-field-item-name">
+						{{item_info.itemName}}
+					</p>
+				</div>
+			</div>
+			<div class="form-group  field-serial-no">
+				<label for="serialNo" class="col-sm-3 control-label">
+					Serial Number
+				</label>
+				<div class="input-div col-sm-9">
+					<p class="form-control-static  control-field-serial-no">
+						{{item_info.serialNo}}
+					</p>
+				</div>
+			</div>
+			<div class="form-group  field-description">
+				<label for="description" class="col-sm-3 control-label">
+					Description
+				</label>
+				<div class="input-div col-sm-9">
+					<p class="form-control-static  control-field-description">
+						{{item_info.description}}
+					</p>
+				</div>
+			</div>
+			<div class="form-group  field-file-id">
+				<label for="fileId" class="col-sm-3 control-label">
+					Photo
+				</label>
+				<div class="input-div col-sm-9">
+					<p class="form-control-static  control-field-file-id">
+						{{item_info.fileId}}
+					</p>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="submit-div col-sm-9 col-sm-offset-3">
+				</div>
+			</div>
+		</form>
+	</div>
+</template>
+
