@@ -1,7 +1,7 @@
 var pageSession = new ReactiveDict();
 
 Template.ItemsDetailsItems.rendered = function() {
-	
+
 	Meteor.defer(function() {
 		globalOnRendered();
 		$("input[autofocus]").focus();
@@ -9,11 +9,11 @@ Template.ItemsDetailsItems.rendered = function() {
 };
 
 Template.ItemsDetailsItems.events({
-	
+
 });
 
 Template.ItemsDetailsItems.helpers({
-	
+
 });
 
 var ItemsDetailsItemsViewItems = function(cursor) {
@@ -77,7 +77,7 @@ var ItemsDetailsItemsViewExport = function(cursor, fileType) {
 
 Template.ItemsDetailsItemsView.rendered = function() {
 	pageSession.set("ItemsDetailsItemsViewStyle", "table");
-	
+
 };
 
 Template.ItemsDetailsItemsView.events({
@@ -159,7 +159,7 @@ Template.ItemsDetailsItemsView.events({
 		ItemsDetailsItemsViewExport(this.item_details, "json");
 	}
 
-	
+
 });
 
 Template.ItemsDetailsItemsView.helpers({
@@ -193,12 +193,12 @@ Template.ItemsDetailsItemsView.helpers({
 		return pageSession.get("ItemsDetailsItemsViewStyle") == "gallery";
 	}
 
-	
+
 });
 
 
 Template.ItemsDetailsItemsViewTable.rendered = function() {
-	
+
 };
 
 Template.ItemsDetailsItemsViewTable.events({
@@ -225,13 +225,13 @@ Template.ItemsDetailsItemsViewTable.helpers({
 
 
 Template.ItemsDetailsItemsViewTableItems.rendered = function() {
-	
+
 };
 
 Template.ItemsDetailsItemsViewTableItems.events({
 	"click td": function(e, t) {
 		e.preventDefault();
-		
+
 		/**/
 		return false;
 	},
@@ -287,7 +287,9 @@ Template.ItemsDetailsItemsViewTableItems.events({
 });
 
 Template.ItemsDetailsItemsViewTableItems.helpers({
-	"checked": function(value) { return value ? "checked" : "" }, 
+	"checked": function(value) { return value ? "checked" : "" },
+
+
 	"editButtonClass": function() {
 		return ItemDetails.userCanUpdate(Meteor.userId(), this) ? "" : "hidden";
 	},

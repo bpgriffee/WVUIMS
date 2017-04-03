@@ -1,7 +1,7 @@
 var pageSession = new ReactiveDict();
 
 Template.Items.rendered = function() {
-	
+
 	Meteor.defer(function() {
 		globalOnRendered();
 		$("input[autofocus]").focus();
@@ -9,11 +9,11 @@ Template.Items.rendered = function() {
 };
 
 Template.Items.events({
-	
+
 });
 
 Template.Items.helpers({
-	
+
 });
 
 var ItemsViewItems = function(cursor) {
@@ -77,7 +77,7 @@ var ItemsViewExport = function(cursor, fileType) {
 
 Template.ItemsView.rendered = function() {
 	pageSession.set("ItemsViewStyle", "table");
-	
+
 };
 
 Template.ItemsView.events({
@@ -159,7 +159,7 @@ Template.ItemsView.events({
 		ItemsViewExport(this.item_list, "json");
 	}
 
-	
+
 });
 
 Template.ItemsView.helpers({
@@ -193,12 +193,12 @@ Template.ItemsView.helpers({
 		return pageSession.get("ItemsViewStyle") == "gallery";
 	}
 
-	
+
 });
 
 
 Template.ItemsViewTable.rendered = function() {
-	
+
 };
 
 Template.ItemsViewTable.events({
@@ -225,13 +225,13 @@ Template.ItemsViewTable.helpers({
 
 
 Template.ItemsViewTableItems.rendered = function() {
-	
+
 };
 
 Template.ItemsViewTableItems.events({
 	"click td": function(e, t) {
 		e.preventDefault();
-		
+
 		Router.go("items.details", mergeObjects(Router.currentRouteParams(), {itemId: this._id}));
 		return false;
 	},
@@ -283,11 +283,41 @@ Template.ItemsViewTableItems.events({
 		e.preventDefault();
 		Router.go("items.edit", mergeObjects(Router.currentRouteParams(), {itemId: this._id}));
 		return false;
-	}
+	},
+
+	"click #write-nfc-button": function(e, t) {
+		e.preventDefault();
+		//alert(me._id);
+		var me = this;
+		var message = [ndef.textRecord(me._id)];
+		function writeID(nfcEvent) {
+			var message = [
+				ndef.textRecord(me._id)
+			];
+			nfc.write(message);
+			alert('successfully wrote data');
+			nfc.removeNdefListener(writeID)
+		};
+
+		nfc.addNdefListener(
+			writeID,
+			function() {
+				console.log("success");
+			},
+			function() {
+				console.log("fail");
+			}
+			);
+		}
+
 });
 
 Template.ItemsViewTableItems.helpers({
-	"checked": function(value) { return value ? "checked" : "" }, 
+	"checked": function(value) { return value ? "checked" : "" },
+	"writeNfcClass": function() {
+		return true;
+	},
+
 	"editButtonClass": function() {
 		return Items.userCanUpdate(Meteor.userId(), this) ? "" : "hidden";
 	},
